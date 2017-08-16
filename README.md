@@ -9,7 +9,7 @@ Luckily, to access the data for the homepage and other landing pages, all you ha
 For example: 
 
 ```
-// Homepage URL
+// Homepage
 https://www.reddit.com/
 
 // JSON data for the homepage
@@ -17,7 +17,7 @@ https://www.reddit.com/.json
 ```
 
 ```
-// New Post URL
+// New posts
 https://www.reddit.com/new/
 
 // JSON data for the 'new' section
@@ -26,12 +26,14 @@ https://www.reddit.com/new/.json
 
 ## Deliverables 
 
-- Replicate the list of stories for each section, with the story image, link, and any relevant information
-- Allow the user to click the story link or image to go to the actual URL of the story
-- For now, **don't** worry about giving users the ability to upvote or downvote the story
+- As users click a navigation element, the appropriate section should load without going to a new page.
+- Replicate the list of stories for each section, with the story image, link, and any relevant information.
+- Allow the user to click the story link or image to go to the actual URL of the story.
+- For now, **don't** worry about giving users the ability to upvote/downvote the story or anything else that can't be done without an access key. 
 
 ## Challenges
 
-- Refactor your code to be more object oriented or make use of prototypes
-- Now that we've redone the original homepage, let's now come up with our own mind blowing UI using Bootstrap and their data
-- The call examples above only give you results for the first page. See if you can Google how to go beyond the first page of results and give them a way to navigate to other pages
+- The call examples above only give you results for the first page. See if you can Google how to go beyond the first page of results and give them a way to navigate to other pages within a section. 
+- Refactor your code to be more object oriented or make use of prototypes.
+- Now that we've redone the original homepage, let's now come up with our own mind blowing UI using Bootstrap, make it responsive.
+
