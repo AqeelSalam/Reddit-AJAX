@@ -27,19 +27,20 @@ https://www.reddit.com/new/.json
 ## Deliverables
 
 - Using Reddit's API, replicate the list of stories for each section. Each story (or article) should have an image, link, and any relevant information.
-- By default, when a user opens the app, display the articles for the "hot" section (Reddit's homepage) without the user having to manually call any api request
-- Allow the user to click the story link or image to go to the actual URL of the story. (**BONUS:** have the webpage open in another tab. Go to the Google for help on this)
+- By default, when a user opens the app, display the articles for the "hot" section (Reddit's homepage) without the user having to manually call any API request
+- Allow the user to click the story link or image to go to the actual URL of the story. Have the web page open in another tab.
 - In the navbar, clicking a tab should manipulate the DOM to display those articles rather than redirecting you to a new URL (ex. clicking “Controversial” should display the first 25 controversial articles)
 - For now, **don't** worry about giving users the ability to upvote/downvote the story or anything else that can't be done without an access key.
 - Make sure to read the below section on Code Quality
 
 ## Challenges
 
-- The call examples above only give you results for the first page. See if you can Google how to go beyond the first page of results and give them a way to navigate to other pages within a section.
 - Now that we've redone the original homepage, let's now come up with our own mind blowing UI using Bootstrap, make it responsive.
 
-## A Note on Code Quality
+## Note on Code Quality
+
 Going forward, Code Quality is going to be a factor in grading. It will never be worth more than 10% of the grade, but it's still an important part of writing code. Since you're unlikely to be working completely independently on projects, it's necessary that your code is readable and accessible to other developers. This means:
+
 - Proper indentation of code
 - Clear and concise comments about what each chunk of your code do
 - Consistent spacing and line-breaks in code
